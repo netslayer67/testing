@@ -1,0 +1,1 @@
+export {default as LogoMalahayati} from "../assets/img/Logo_Malahayati.svg";
