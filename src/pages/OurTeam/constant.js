@@ -1,4 +1,6 @@
-import { mahfudQuote, raffiQuote } from "../../config/images";
+// import { mahfudQuote, raffiQuote } from "../../config/images";
+import mahfudQuote from '../../assets/img/Mahfud.png'
+import raffiQuote from '../../assets/img/Raffi.png'
 
 export const dataEmployee = [
     [
