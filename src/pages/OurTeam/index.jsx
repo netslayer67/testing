@@ -1,5 +1,6 @@
 import { useCallback, useState } from 'react';
-import { raffiQuote } from '../../config/Images';
+// import { raffiQuote } from '../../config/Images';
+import raffiQuote from '../../assets/img/Raffi.png'
 import { BiSolidLeftArrow, BiSolidRightArrow } from 'react-icons/bi';
 import { dataEmployee } from './constant';
 
@@ -55,11 +56,10 @@ const OurTeam = () => {
                 <div className="flex items-center justify-around md:gap-x-10">
                     <BiSolidLeftArrow
                         size={40}
-                        className={`mt-14 ${
-                            numberCarousell === 0
-                                ? 'text-gray-500 cursor-default'
-                                : 'cursor-pointer'
-                        }`}
+                        className={`mt-14 ${numberCarousell === 0
+                            ? 'text-gray-500 cursor-default'
+                            : 'cursor-pointer'
+                            }`}
                         onClick={() => setNumberCarousell(0)}
                     />
                     <div className="grid md:grid-cols-4 grid-cols-2 gap-x-9 gap-y-4 mt-16">
@@ -67,11 +67,10 @@ const OurTeam = () => {
                     </div>
                     <BiSolidRightArrow
                         size={40}
-                        className={`mt-14 ${
-                            numberCarousell === dataEmployee.length - 1
-                                ? 'text-gray-500 cursor-default'
-                                : 'cursor-pointer'
-                        }`}
+                        className={`mt-14 ${numberCarousell === dataEmployee.length - 1
+                            ? 'text-gray-500 cursor-default'
+                            : 'cursor-pointer'
+                            }`}
                         onClick={() => setNumberCarousell(1)}
                     />
                 </div>
