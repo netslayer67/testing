@@ -1,4 +1,3 @@
-// import { skpp } from "../../config/images";
 import skpp from '../../assets/img/SKPP.png';
 
 const RiskAssistance = () => {
